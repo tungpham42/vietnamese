@@ -1,2 +1,0 @@
-# vietnamese
-Vietnamese Words Helper
