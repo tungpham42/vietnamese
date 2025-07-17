@@ -1,13 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right, #f8f9fa, #eef2f7) !important;
+  font-family: "Work Sans", sans-serif !important;
+  padding-bottom: 60px !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  font-size: 2.5rem !important;
+  font-weight: 800 !important;
+  color: #0d6efd !important;
+}
+
+.card {
+  border-radius: 1rem !important;
+  border: 1px solid #dee2e6 !important; /* Subtle default border */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04) !important;
+  transition: all 0.25s ease-in-out !important;
+}
+
+.card:hover {
+  transform: translateY(-4px) !important;
+  border-color: #0d6efd !important; /* Highlight border on hover */
+  box-shadow: 0 8px 24px rgba(13, 110, 253, 0.15) !important;
+}
+
+.card-header {
+  background-color: #f1f3f5 !important;
+  border-bottom: none !important;
+  border-radius: 1rem 1rem 0 0 !important;
+}
+
+.card-title {
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
+  color: #495057 !important;
+}
+
+.card-text {
+  font-size: 0.95rem !important;
+  color: #212529 !important;
+}
+
+.input-group-text {
+  border-radius: 1rem 0 0 1rem !important;
+}
+
+.form-control {
+  border-radius: 0 1rem 1rem 0 !important;
+  box-shadow: none !important;
+}
+
+.alert-warning {
+  border-radius: 1rem !important;
+  background-color: #fff3cd !important;
+  border: none !important;
+}
+
+.fst-italic {
+  color: #6c757d !important;
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #0d6efd, #6610f2) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
 }
