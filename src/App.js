@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Container, Row, Col, Form, Card, InputGroup } from "react-bootstrap";
+import MainBrandLogo from "./MainBrandLogo";
 import words from "./data/words";
 
 const App = () => {
@@ -41,6 +42,12 @@ const App = () => {
 
   return (
     <Container className="py-5">
+      <MainBrandLogo
+        logoSrc="/soft-logo.webp"
+        mainDomain="soft.io.vn"
+        dismissible={false}
+        altText="Logo Soft"
+      />
       <Row className="justify-content-center">
         <Col md={8} lg={6}>
           <div className="text-center mb-4">
